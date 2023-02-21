@@ -1,3 +1,68 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 3px solid black;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+article h1 {
+  font-weight: 440px;
+}
+
+a {
+  text-decoration: none;
+  font-size: larger;
+  color: rgb(110, 161, 238);
+}
+
+i {
+  color: rgb(81, 81, 238);
+}
+
+.go_back {
+  text-align: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.content {
+  border: 2px solid black;
+  margin-top: 20px;
+  margin-left: 400px;
+  margin-right: 400px;
+  background-color: antiquewhite;
+}
+
+.show_page {
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  margin-top: 200px;
+  margin-bottom: 50px;
+  margin-left: 400px;
+  margin-right: 400px;
+}
+
+/* .home_page {
+  font-size: larger;
+  font-weight: bold;
+  color :black;
+  text-align: center;
+} */
+
+body {
+  font-size: larger;
+  font-weight: bold;
+  color :black;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.

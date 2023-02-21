@@ -1,0 +1,13 @@
+<div class='navbar'>
+  <h1>Crazy Articles</h1>
+  <p>By Mr.Robot</p>
+</div>
+
+<%# <div class='home_page'> %>
+  <% @articles.each do |article| %>
+    <div class='content'>
+      <p><%= link_to article.title, article_path(article) %></p>
+      <p><%= article.content %></p>
+    </div>
+  <% end %>
+<%# </div> %>
